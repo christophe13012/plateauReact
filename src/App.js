@@ -21,14 +21,16 @@ class App extends Component {
       {
         id: "user1",
         name: "",
-        avatarSrc: "http://localhost:3000/avatars/001-girl.png",
+        avatarSrc:
+          "https://christophe13012.github.io/plateauReact/avatars/001-girl.png",
         error: "init",
         ready: false
       },
       {
         id: "user2",
         name: "",
-        avatarSrc: "http://localhost:3000/avatars/001-girl.png",
+        avatarSrc:
+          "https://christophe13012.github.io/plateauReact/avatars/001-girl.png",
         error: "init",
         ready: false
       }

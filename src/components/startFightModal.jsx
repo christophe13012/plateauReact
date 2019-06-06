@@ -14,7 +14,7 @@ const StartFightModal = ({ showStart, onHide, player }) => {
         </p>
         <p>Chacun choisit d'attaquer ou de defendre contre le prochain coup</p>
         <p>
-          <span id="premierCombattant">{player}</span> commence le combat
+          <span>{player}</span> commence le combat
         </p>
       </Modal.Body>
       <Modal.Footer>

@@ -17,26 +17,30 @@ class Jeu extends Component {
   };
   weaponsList = [
     {
-      src: "http://localhost:3000/armes/shuriken.png",
+      src: "https://christophe13012.github.io/plateauReact/armes/shuriken.png",
       damage: 10,
       name: "shuriken"
     },
     {
-      src: "http://localhost:3000/armes/sword.png",
+      src: "https://christophe13012.github.io/plateauReact/armes/sword.png",
       damage: 15,
       name: "épée"
     },
     {
-      src: "http://localhost:3000/armes/nunchaku.png",
+      src: "https://christophe13012.github.io/plateauReact/armes/nunchaku.png",
       damage: 15,
       name: "nunchaku"
     },
     {
-      src: "http://localhost:3000/armes/arrow.png",
+      src: "https://christophe13012.github.io/plateauReact/armes/arrow.png",
       damage: 20,
       name: "arc"
     },
-    { src: "http://localhost:3000/armes/bomb.png", damage: 25, name: "bombe" }
+    {
+      src: "https://christophe13012.github.io/plateauReact/armes/bomb.png",
+      damage: 25,
+      name: "bombe"
+    }
   ];
   async componentDidMount() {
     document.addEventListener("keydown", this.handleKeyDown.bind(this));
