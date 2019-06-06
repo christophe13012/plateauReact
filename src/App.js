@@ -62,6 +62,7 @@ class App extends Component {
   handleClick = e => {
     const userId = e.currentTarget.name;
     const avatarSrc = e.currentTarget.src;
+    console.log(avatarSrc);
     let users = [...this.state.users];
     users.map(user => {
       if (user.id === userId) return (user.avatarSrc = avatarSrc);
