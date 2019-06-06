@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 class Perso extends Component {
   selectedAvatarStyle(avatarSrc) {
+    console.log(
+      "https://christophe13012.github.io/plateauReact/" + avatarSrc,
+      this.props.user.avatarSrc
+    );
+
     return this.props.user.avatarSrc ===
       "https://christophe13012.github.io/plateauReact/" + avatarSrc
       ? styles.avatarSelected
