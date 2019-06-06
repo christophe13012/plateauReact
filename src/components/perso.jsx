@@ -81,7 +81,7 @@ class Perso extends Component {
             <img
               style={this.selectedAvatarStyle("avatars/005-girl.png")}
               src="https://christophe13012.github.io/plateauReact/avatars/005-girl.png"
-              alt="girl1"
+              alt="girl5"
               onClick={clic}
               name={user.id}
             />
