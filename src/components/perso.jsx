@@ -66,35 +66,35 @@ class Perso extends Component {
           <div className="col-sm-8">
             <img
               style={this.selectedAvatarStyle("avatars/001-girl.png")}
-              src="./avatars/001-girl.png"
+              src="https://christophe13012.github.io/plateauReact/avatars/001-girl.png"
               alt="girl"
               onClick={clic}
               name={user.id}
             />
             <img
               style={this.selectedAvatarStyle("avatars/006-child-3.png")}
-              src="avatars/006-child-3.png"
+              src="https://christophe13012.github.io/plateauReact/avatars/006-child-3.png"
               alt="child3"
               onClick={clic}
               name={user.id}
             />
             <img
               style={this.selectedAvatarStyle("avatars/004-girl-1.png")}
-              src="../avatars/004-girl-1.png"
+              src="https://christophe13012.github.io/plateauReact/avatars/004-girl-1.png"
               alt="girl1"
               onClick={clic}
               name={user.id}
             />
             <img
               style={this.selectedAvatarStyle("avatars/002-child.png")}
-              src="avatars/002-child.png"
+              src="https://christophe13012.github.io/plateauReact/avatars/002-child.png"
               alt="child2"
               onClick={clic}
               name={user.id}
             />
             <img
               style={this.selectedAvatarStyle("avatars/007-child-4.png")}
-              src="avatars/007-child-4.png"
+              src="https://christophe13012.github.io/plateauReact/avatars/007-child-4.png"
               alt="child4"
               onClick={clic}
               name={user.id}
