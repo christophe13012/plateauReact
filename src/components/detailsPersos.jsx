@@ -38,7 +38,7 @@ class DetailsPersos extends Component {
           </p>
         )}
         <p>
-          Arme : <img alt="arme" src={player.weapon.src} />
+          ArmeTest : <img alt="arme" src={player.weapon.src} />
           <span>
             {player.weapon.name} (Dégats : {player.weapon.damage})
           </span>
